@@ -15,6 +15,7 @@
 	You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
 </div>
 <![endif]-->
+<?php dynamic_sidebar('header-widget-area'); ?>
 
 <nav class="navbar navbar-default navbar-static-top">
   <div class="container">

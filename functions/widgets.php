@@ -28,5 +28,15 @@ function bst_widgets_init() {
     'after_title'     => '</h4>',
   ) );
 
+  register_sidebar( array(
+    'name'            => __( 'Header', 'bst' ),
+    'id'              => 'header-widget-area',
+    'description'     => __( 'The header widget area', 'bst' ),
+    'before_widget'   => '<div class="%1$s %2$s col-sm-4">',
+    'after_widget'    => '</div>',
+    'before_title'    => '<h4>',
+    'after_title'     => '</h4>',
+  ) );
+
 }
 add_action( 'widgets_init', 'bst_widgets_init' );
